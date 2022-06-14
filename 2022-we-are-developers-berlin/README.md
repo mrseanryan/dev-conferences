@@ -10,6 +10,8 @@
 
 - langium - Langium: Design Your Own Language in Node.js and VS Code
 
+- Jina - With a framework like Jina (https://github.com/jina-ai/jina), searching cross-modal/multi-modal data via deep neural networks becomes extremely straightforward. DALL&middot;E, a powerful image-to-text generator released by OpenAI in 2021 
+
 ## concepts
 
 Trade-offs: can only optimize/guarantee for 2 of 3:
