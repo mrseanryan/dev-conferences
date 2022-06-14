@@ -15,6 +15,10 @@ https://gorm.io/index.html
 
 `go get -u gorm.io/gorm`
 
+- MailCatcher - a simple SMTP server for testing
+
+- eyeson.js - the EyesOn JS API
+
 ## references
 
 https://eyeson-team.github.io/api/getting-started/
@@ -24,5 +28,5 @@ https://eyeson-team.github.io/api/getting-started/
 
 ```sh
 make server
-go run cmd/server.go
+# go run cmd/server.go
 ```
