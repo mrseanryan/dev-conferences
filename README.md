@@ -6,4 +6,5 @@ notes from dev conferences
 ### techs to try
 
 - prisma - TS ORM
+- singer.io for building data pipelines
 
