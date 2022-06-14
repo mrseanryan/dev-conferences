@@ -1,5 +1,9 @@
 # eyeson-video-call-tryout README
 
+Christophe Lipautz - "Building a Video Meeting Platform from Scratch"
+
+http://github.com/eyeson-team/workshop-video-platform
+
 ## dependencies
 
 - go
@@ -23,6 +27,11 @@ https://gorm.io/index.html
 
 https://eyeson-team.github.io/api/getting-started/
 
+
+- web sockets
+- web hooks (a URL you provide that is called, when a given event happens...)
+-- can be validated by signing by the shared secret that is the API key
+- redirections (30x HTTP status code)
 
 ##  usage
 
