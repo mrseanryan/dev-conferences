@@ -5,7 +5,7 @@
 - prisma - TS ORM
 - singer.io for building data pipelines
 - paint.js.org
-- high perf CMS via contentfup and next.js 
+- high perf CMS via contentful and next.js 
 -- how to combine the GraphQL API of Contentful, a headless content management system (CMS), with Next.js's incremental static regeneration (ISR) feature in order to balance the advantages of high performance offered by static site generation with the ability for content editors to publish changes in no time.
 
 - langium - Langium: Design Your Own Language in Node.js and VS Code
