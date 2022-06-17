@@ -16,5 +16,5 @@
 
 Trade-offs: can only optimize/guarantee for 2 of 3:
 
-CAP - Consistency, Availability, Partition-tolerance
-FAB - Fast, Accurate, Big-data
+- CAP - Consistency, Availability, Partition-tolerance
+- FAB - Fast, Accurate, Big-data (but does CAP already cover this? depending on definitions...)
