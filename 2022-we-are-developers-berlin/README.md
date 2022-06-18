@@ -44,7 +44,7 @@ combine classical and modern NLP (as they have complimentary strengths & weaknes
 
 [vespa.ai](https://vespa.ai/) - [OSS](https://github.com/vespa-engine) tool, platform to build big data services
 
-- [world models](worldmodels.github.io)
+- [world models](https://worldmodels.github.io/)
 
 -- world models don’t need labelled data
 
