@@ -7,9 +7,7 @@
 - [prisma](https://www.prisma.io/typescript) - TypeScript ORM
 - [singer.io](https://www.singer.io/) for building data pipelines (open source ETL) (OSS scripts to move data)
 
-### Online paint tool
-
-- [paint.js.org](https://paint.js.org/) (web hosted MS Paint)
+### High perf CMS
 
 - high perf CMS via [Contentful](https://www.contentful.com/pricing/) and [next.js](https://nextjs.org/)
 
@@ -63,6 +61,8 @@ combine classical and modern NLP (as they have complimentary strengths & weaknes
 - [deckset](https://www.deckset.com/) - app to create PowerPoint like slides from md (markdown) files
 
 - [elastic search](https://www.elastic.co/) - can use via browser console
+
+- [paint.js.org](https://paint.js.org/) (web hosted MS Paint)
 
 ---
 
