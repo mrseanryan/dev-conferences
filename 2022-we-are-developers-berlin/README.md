@@ -7,6 +7,8 @@
 - [prisma](https://www.prisma.io/typescript) - TypeScript ORM
 - [singer.io](https://www.singer.io/) for building data pipelines (open source ETL) (OSS scripts to move data)
 
+- [terminusDB](https://github.com/terminusdb/terminusdb) - modular toolkit for data intensive apps — OSS!  - [organisation site](https://terminusdb.com)
+
 ### High perf CMS
 
 - high perf CMS via [Contentful](https://www.contentful.com/pricing/) and [next.js](https://nextjs.org/)
@@ -25,8 +27,6 @@
 
   -- [DALL&middot;E flow](https://github.com/jina-ai/dalle-flow/)
 
-- [terminusDB](https://github.com/terminusdb/terminusdb) - modular toolkit for data intensive apps — OSS! - [organisation site](https://terminusdb.com)
-
 ---
 
 ### AI NLP
@@ -35,7 +35,7 @@ _presenter: [Jonas Andrulis](https://de.linkedin.com/in/jonasandrulis)_
 
 - classical NLP - BM25
 
-- transformers instead, vector compute and compare
+- transformers instead, vector compute (like word2vec?) and compare
 - [ms marco](https://microsoft.github.io/msmarco/) - a collection of datasets focused on deep learning in search.
 - [hugging face](https://huggingface.co/) - ML images
 - [sbert.net](https://sbert.net/) - (via Niels Reimers) - sentence transformers.
