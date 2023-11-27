@@ -4,6 +4,14 @@ lab overview - see photo on iPhone (Dropbox)
 
 tinyurl.com/mlcon-berlin
 
+seans copy:
+- https://docs.google.com/document/d/1po1VZQL3SuHdoDp1_m2yk8R7CAw20OGXRlR6IDbHXT4/edit#heading=h.w2b92xvdlc28
+
+original:
+- https://docs.google.com/document/d/1-9k_avvLNItteqQ1_nVhO30CfgHDgRNxtHCF3-noAS8/edit
+
+https://github.com/datamics/MLCon
+
 presented by datamics company
 
 # MLflow
@@ -31,3 +39,12 @@ ONNX interop
 -- model registry
 --- lifecycle stages: exper, staging, prod, archived
 
+# model monitoring (if need retraining)
+
+https://docs.aporia.com/
+
+- monitor model, to see if it needs re-training
+
+- calculates the model drift (data drift)
+- compares training vs inference (prod) to tell you if inference no longer agrees with training
+-- e.g. a feature has a much different range that what was trained for
