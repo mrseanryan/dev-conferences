@@ -1,0 +1,106 @@
+import mlflow
+import pandas as pd
+import numpy as np
+
+from sklearn.linear_model import ElasticNet
+from sklearn.model_selection import train_test_split
+from sklearn import metrics
+
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+# drops a CSV file, to trigger mlflow training
+import pandas as pd
+from datetime import date
+
+from airflow.decorators import task
+
+import os
+
+# so can run this Python file as an Airflow task
+@task
+def do_training(filename, experiment_name):
+    print(f"cwd: {os.getcwd()}")
+    df = pd.read_csv("./data/winequality.csv")
+
+    X = df.drop('quality', axis = 1)
+    y = df['quality']
+
+    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.25, random_state=43)
+
+    ##### auto logging
+
+    # if pytorch, use mlflow.pytorch ...
+    mlflow.sklearn.autolog(log_models = True)
+
+    # experiment_name = "DAG - mlflow-tracking-3 - from Airflow DAG"
+    run_name = "mlflow-tracking-3 - first mlflow custom run C - auto logging"
+    artifact_store_location = "/home/seanius/src/github/others/MLCon/1_mlflow/artifact_store_custom" # a default artifact location. can be S3 bucket. must be absolute path.
+    tags = {
+        "Demo": "True",
+        "Created by": "Sean",
+    }
+    mlflow.set_tracking_uri("http://localhost:5001") # where mlflow is: `mlflow ui -p 5001`
+    try:
+        mlflow.create_experiment(experiment_name, artifact_store_location)
+    except:
+        mlflow.set_experiment(experiment_name) # will create if needed, else re-use
+        # experiment changes the artifact store
+
+    ### TO USE EXTERNAL DB ###
+    # tracking_uri = "DB_URI'
+    ## adding external DB #######
+    # mlflow.set_tracking_uri(tracking_uri)
+    # mlflow.set_registry_uri(tracking_uri)
+
+    # mlflow logging
+
+    # best = alpha = 0.05, l1 = 0.3
+    # for alpha in [0.05, 0.1, 0.2, 0.3]:
+    #     for l1 in [0.3, 0.4, 0.5]:
+    # for alpha in [0.05]:
+    #     for l1 in [0.3]:
+    alpha = 0.05
+    l1 = 0.3
+    with mlflow.start_run(run_name = run_name) as run:    
+        # training
+        # alpha = 0.05
+        # l1 = 0.5
+
+        # linear regression model
+        lr = ElasticNet(alpha=alpha, l1_ratio=l1)
+
+        lr.fit(X_train, y_train)
+
+        def eval_metrics(ground_truth, pred):
+            rmse = np.sqrt(metrics.mean_squared_error(ground_truth, pred))
+            mae = metrics.mean_absolute_error(ground_truth, pred)
+            r2 = metrics.r2_score(ground_truth, pred)
+
+            return rmse, mae, r2
+
+        # inference
+        y_pred = lr.predict(X_train)
+        print(y_pred.shape)
+
+        rmse, mae, r2 = eval_metrics(y_train, y_pred)
+
+        print(f"Out metrics: RMSE = {rmse}, MAE = {mae}, R2 = {r2}")
+        # then you would adjust until you see good metrics
+
+        # logged hyperparameters
+        # mlflow.log_param("alpha", alpha)
+        # mlflow.log_param("l1 ratio", l1)
+
+        # # logged metrics
+        # mlflow.log_metric("rmse", rmse)
+        # mlflow.log_metric("mae", mae)
+        # mlflow.log_metric("r2", r2)
+
+        # fig = plt.gcf()
+        # img = fig2img(fig)
+        # # log image (as file)
+        # mlflow.log_artifact("quality_corr.png")
+
+        mlflow.set_tags(tags)
+    return run.info.run_id
