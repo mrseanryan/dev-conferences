@@ -1,8 +1,8 @@
-# README 
+# README - ML Flow Workshop
 
-lab overview - see photo on iPhone (Dropbox)
+# lab overview
 
-tinyurl.com/mlcon-berlin
+http://tinyurl.com/mlcon-berlin
 
 seans copy:
 - https://docs.google.com/document/d/1po1VZQL3SuHdoDp1_m2yk8R7CAw20OGXRlR6IDbHXT4/edit#heading=h.w2b92xvdlc28
