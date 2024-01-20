@@ -23,7 +23,7 @@ more accurate:
 
 - autoencoders are hard to use!
 - use if lot of unlabelled data
-- bigger layers getting smaller and smaller then bottleneck layer then more growing laters
+- bigger layers getting smaller and smaller then bottleneck layer then more growing layers
 - have an inner bottleneck layer that forces classification
 - throw away decoder layers
 then can train a classification layer with small number of labelled data
