@@ -34,9 +34,13 @@
 
 - started in Automobiles, then Fashion, then other industries
 
-- getting data is difficult (quantity and quality)
-- they use AI to 'multiply' to gen synthetic examples
+- challenge: getting data is difficult (quantity and quality)
+  - they use AI to 'multiply' to gen synthetic examples
+
 - challenge: staff resistance to change
+
+- challenge: manufacturing has low AI penetration compared to other disciplines like marketting
+  - manufacturing seems more conservative
 
 [photos](./images/materials-brembo/)
 
