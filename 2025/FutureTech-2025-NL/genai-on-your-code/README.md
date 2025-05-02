@@ -44,4 +44,5 @@ https://owasp.org/www-project-top-10-for-large-language-model-applications/
 ### Tooling
 
 - [llm-guard](https://github.com/protectai/llm-guard/tree/v0.3.4)
-- [presidio](https://github.com/microsoft/presidio/)
+  - uses: [presidio](https://github.com/microsoft/presidio/)
+- [DOMPurify](https://github.com/cure53/DOMPurify)
