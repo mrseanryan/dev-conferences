@@ -39,3 +39,9 @@ https://owasp.org/www-project-top-10-for-large-language-model-applications/
 - [OWASP Top 10 for LLM Applications](https://owasp.org/www-project-top-10-for-large-language-model-applications/assets/PDF/OWASP-Top-10-for-LLMs-2023-v1_0_1.pdf)
 - [Threat Modeling LLM Applications](https://aivillage.org/large%20language%20models/threat-modeling-llm/)
 - [Prompt Injection attack against LLM-integrated Applications](https://arxiv.org/abs/2306.05499)
+
+
+### Tooling
+
+- [llm-guard](https://github.com/protectai/llm-guard/tree/v0.3.4)
+- [presidio](https://github.com/microsoft/presidio/)
