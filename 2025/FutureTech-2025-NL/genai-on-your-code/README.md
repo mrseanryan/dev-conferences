@@ -33,3 +33,9 @@ https://pentestgpt.ai/
 https://owasp.org/www-project-top-10-for-large-language-model-applications/
 
 2. https://atlas.mitre.org/ - Navigate threats to AI systems through real-world insights
+
+## Related [added later]
+
+- [OWASP Top 10 for LLM Applications](https://owasp.org/www-project-top-10-for-large-language-model-applications/assets/PDF/OWASP-Top-10-for-LLMs-2023-v1_0_1.pdf)
+- [Threat Modeling LLM Applications](https://aivillage.org/large%20language%20models/threat-modeling-llm/)
+- [Prompt Injection attack against LLM-integrated Applications](https://arxiv.org/abs/2306.05499)
