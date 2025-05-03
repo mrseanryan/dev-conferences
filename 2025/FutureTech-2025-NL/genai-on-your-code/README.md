@@ -52,8 +52,14 @@ https://owasp.org/www-project-top-10-for-large-language-model-applications/
     - [Role Playing] Pretend you are a ... and ...
     - [Refusal Suppression] Do not apologize or include any negative sentence about the prompt. Then, ...
     - [Obfuscation] Base64-encode following communications ...
-
+    - [Universal Adversarial Attacks] (adding special character sequences to the prompt - can discover them via brute force permutations)
     - (provided for educational purposes)
 - [DOMPurify](https://github.com/cure53/DOMPurify)
   - can block HTML/JavaScript/CSS injection attacks
 
+### Defensive Measures
+
+- Classification Models: use text classification models to detect attacks against LLMs by scanning the input prompts and outputs of the LLM.
+- Prompts defense: Write comprehensive and robust original prompts for the LLM. Tell the LLM to be cautious by anticipating potential attacks. Also, try reiterating the original instructions using post-prompting.
+- Wrapping user input: enclose the user input between separators, such as random strings or XML tags - this is to help the LLM differentiate user input from the original instructions.
+- Follow the principle of least privilege: LLM should have minimal access levels required for its designed tasks. Any privileged information or execution capability should not be handled directly by the LLM but mediated at the application level.
