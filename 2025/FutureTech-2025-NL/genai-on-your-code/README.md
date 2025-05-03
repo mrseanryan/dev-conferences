@@ -58,6 +58,7 @@ https://owasp.org/www-project-top-10-for-large-language-model-applications/
   - can block HTML/JavaScript/CSS injection attacks
 
 ### Defensive Measures
+Based on the excellent security courses at https://www.secureflag.com/.
 
 - Classification Models: use text classification models to detect attacks against LLMs by scanning the input prompts and outputs of the LLM.
 - Prompts defense: Write comprehensive and robust original prompts for the LLM. Tell the LLM to be cautious by anticipating potential attacks. Also, try reiterating the original instructions using post-prompting.
