@@ -30,16 +30,17 @@ https://pentestgpt.ai/
 ## Standards for AI (LLM) Vulnerabilities
 
 1. OWASP Top 10 for Large Language Model Applications
-https://owasp.org/www-project-top-10-for-large-language-model-applications/
 
-2. https://atlas.mitre.org/ - Navigate threats to AI systems through real-world insights
+- [OWASP for LLM Applications - 2025](https://genai.owasp.org/llm-top-10/)
+- [OWASP for LLM Applications - 2023](https://owasp.org/www-project-top-10-for-large-language-model-applications/)
+- [OWASP for LLM Applications - 2023](https://owasp.org/www-project-top-10-for-large-language-model-applications/assets/PDF/OWASP-Top-10-for-LLMs-2023-v1_0_1.pdf)
+
+3. https://atlas.mitre.org/ - Navigate threats to AI systems through real-world insights
 
 ## Related [added later]
-
-- [OWASP Top 10 for LLM Applications](https://owasp.org/www-project-top-10-for-large-language-model-applications/assets/PDF/OWASP-Top-10-for-LLMs-2023-v1_0_1.pdf)
 - [Threat Modeling LLM Applications](https://aivillage.org/large%20language%20models/threat-modeling-llm/)
+- [Multi-Agentic system Threat Modeling Guide v1.0](https://genai.owasp.org/resource/multi-agentic-system-threat-modeling-guide-v1-0/)
 - [Prompt Injection attack against LLM-integrated Applications](https://arxiv.org/abs/2306.05499)
-
 
 ### Tooling
 
