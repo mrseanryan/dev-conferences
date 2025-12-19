@@ -1,0 +1,3 @@
+# RNN notes
+
+Eric Steinberger
