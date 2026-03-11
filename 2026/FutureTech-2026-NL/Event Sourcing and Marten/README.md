@@ -1,4 +1,8 @@
-# Event Sourcing and Marten
+# Event Sourcing and martendb
+
+- martendb - framework to build event sourced apps
+- OSS doc store, event store, projections engine. built on postgresql.
+- integrates with wolverine - NET Mediator and Message Bus.
 
 ![](./2026-03-11%2015.00.22.jpg)
 ![](./2026-03-11%2015.10.14.jpg)

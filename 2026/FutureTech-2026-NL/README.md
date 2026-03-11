@@ -7,3 +7,15 @@
 - [arc42 architecture documentation](https://arc42.org/overview)
 
 - IAM service provider - https://www.tools4ever.nl
+
+- dappr - decouple your app from services (e.g. to make your app more cloud agnostic)
+
+## Multi Agent Frameworks (MAFs)
+
+- Microsoft Agent Framework (MAF) (replaces and unifies Semantic Kernel and AutoGen)
+
+- n8n - low code, graph view is more mature than MAF. based around workflows.
+  - note: an AI workflow is not a business process
+    - a business process is bigger, needs human in the loop.
+      - bounded contexts are natural fault lines
+
