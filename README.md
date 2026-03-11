@@ -26,3 +26,7 @@ see [README](./2024/WorldSummitAI-2024-NL/README.md)
 ## Future Tech 2025
 
 see [README](./2025/FutureTech-2025-NL/README.md)
+
+## Future Tech 2026
+
+see [README](./2026/FutureTech-2026-NL/README.md)
