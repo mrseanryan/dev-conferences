@@ -19,3 +19,8 @@
     - a business process is bigger, needs human in the loop.
       - bounded contexts are natural fault lines
 
+## TDD and AIAI (via Spec DD + Beads)
+
+- https://github.com/jmanhype/speckit
+
+- Beads is a memory plugin to support AI coders
