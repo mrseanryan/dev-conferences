@@ -30,3 +30,7 @@ see [README](./2025/FutureTech-2025-NL/README.md)
 ## Future Tech 2026
 
 see [README](./2026/FutureTech-2026-NL/README.md)
+
+## Assembly 2026
+
+see [README](./2026/Assembly-2026-NL/README.md)
