@@ -1,0 +1,6 @@
+What Networking Got Right That Agentic AI Risks Getting Wrong: The Case for an Agent Control Plane - Parisa Foroughi, Nokia
+
+Every major agent orchestration framework today conflates task execution with the control layer that should govern authority and policy. This talk argues for a cross-domain agent control plane: a runtime layer external to the agent that performs authority checks and policy enforcement at defined boundaries, independent of the agent’s internal logic. Grounded in inter-domain routing, it proposes a semantic model built on five invariants: domain boundary as the control unit, boundary-crossing capability classes as the permission unit, scope-narrowing delegation with bounded elevation, unbroken provenance to a registered trust anchor, and boundary enforcement without inspecting internal behavior or payload content. The model introduces two runtime artifacts: the Agent Control Envelope (ACE) for authorization and the Agent Activity Envelope (AAE) for behavioral constraint. Attendees will leave with a precise mental model, two concrete artifacts, and a clear argument for why agent interoperability needs explicit boundary semantics before wire formats harden around the wrong primitives.
+
+Parisa Foroughi
+Senior research specialist, Nokia

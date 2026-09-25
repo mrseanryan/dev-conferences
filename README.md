@@ -34,3 +34,7 @@ see [README](./2026/FutureTech-2026-NL/README.md)
 ## Assembly 2026
 
 see [README](./2026/Assembly-2026-NL/README.md)
+
+## AGNTCon and MCPCon Europe 2026
+
+see [README](./2026/AGNTCon_and_MCPCon_Europe_2026/README.md)
