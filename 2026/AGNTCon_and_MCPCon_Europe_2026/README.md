@@ -1,4 +1,4 @@
-# README - AGNTCon and MCPCon Europe 2026
+# AGNTCon and MCPCon Europe 2026 - Rough Notes
 
 - [event website](https://agntconmcpconeu26.sched.com/)
 
